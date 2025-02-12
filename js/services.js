@@ -22,20 +22,31 @@ document.addEventListener('DOMContentLoaded', () => {
 // Objek berisi pengertian dalam beberapa bahasa
 const definitions = {
     moghrap: {
-        en: "Moghrap is a fictional concept representing innovation and creativity.",
-        id: "Moghrap adalah konsep fiksi yang mewakili inovasi dan kreativitas."
+        en: `Mograph is short for "motion graphics." 
+        This is a design technique that combines graphic elements with animation to create dynamic and interesting visual works. 
+        Motion graphics are often used in videos, presentations, and various digital media to explain concepts, support narratives, or add engaging visual effects.`,
+        id: `Mograph adalah kependekan dari "motion graphics." 
+        Ini adalah teknik desain yang menggabungkan elemen grafis dengan animasi untuk menciptakan karya visual yang dinamis dan menarik. 
+        Motion graphics sering digunakan dalam video, presentasi, dan berbagai media digital untuk menjelaskan konsep, mendukung narasi, 
+        atau menambahkan efek visual yang memikat.`
     },
     editing: {
-        en: "Video editing is the process of manipulating and rearranging video shots to create a new work.",
-        id: "Editing video adalah proses mengedit dan menyusun ulang video untuk menciptakan karya baru."
+        en: `Video editing is the process of changing and compiling videos to achieve the desired results. 
+        This can involve cutting video clips, adding music or sound, providing visual effects and transitions, and arranging the clips into a coherent narrative.`,
+        id: `Video editing adalah proses mengubah dan menyusun video untuk mencapai hasil yang diinginkan. 
+        Ini bisa melibatkan pemotongan klip video, menambahkan musik atau suara, memberikan efek visual dan transisi, serta menyusun klip-klip tersebut menjadi sebuah narasi yang koheren.`
     },
     minecraft: {
-        en: "Minecraft Coding involves creating modifications and scripts to enhance gameplay.",
-        id: "Minecraft Coding melibatkan pembuatan modifikasi dan skrip untuk meningkatkan gameplay."
+        en: `Minecraft coding script is a way to program and organize behavior in the Minecraft game using a programming language. 
+        By using scripts, players can make modifications to the game, such as adding new features, changing game mechanics, or even creating their own mini games.`,
+        id: `Minecraft coding script adalah cara untuk memprogram dan mengatur perilaku dalam permainan Minecraft menggunakan bahasa pemrograman. 
+        Dengan menggunakan script, pemain dapat membuat modifikasi pada permainan, seperti menambahkan fitur baru, mengubah mekanika permainan, atau bahkan membuat mini game sendiri.`
     },
     blockbench: {
-        en: "Blockbench is a 3D modeling program for creating Minecraft models.",
-        id: "Blockbench adalah program pemodelan 3D untuk membuat model di Minecraft."
+        en: `Modeling in Blockbench is the process of creating and editing 3D models using the tools available in the software. 
+        Blockbench is a 3D editor tool designed for creating low-poly models, which are often used in games like Minecraft.`,
+        id: `Modeling di Blockbench adalah proses menciptakan dan mengedit model 3D dengan menggunakan alat yang tersedia di dalam perangkat lunak tersebut. 
+        Blockbench adalah alat editor 3D yang dirancang untuk membuat model low-poly, yang sering digunakan dalam permainan seperti Minecraft.`
     }
 };
 
