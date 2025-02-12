@@ -24,3 +24,7 @@ function showCategory(categoryId) {
         }, index * 200); // Delay each card's animation
     });
 }
+
+function confirmRedirect() {
+    return confirm("Anda akan diarahkan ke Gmail untuk mengirim email. Apakah Anda ingin melanjutkan?");
+}
