@@ -60,3 +60,30 @@ document.addEventListener("DOMContentLoaded", () => {
         el.classList.add("show"); // Tambahkan class 'show' agar animasi jalan
     });
 });
+
+// Fungsi untuk menampilkan video sesuai kategori
+function showDefinition(category) {
+    const userLang = getLanguage();
+    const definitionText = definitions[category][userLang];
+    
+    document.getElementById('definition-text').textContent = definitionText;
+
+    // Sembunyikan semua video terlebih dahulu
+    document.querySelectorAll('.video-container').forEach(video => {
+        video.style.display = 'none';
+    });
+
+    // Tampilkan video yang sesuai dengan kategori
+    const videoId = `${category}-video`;
+    const videoContainer = document.getElementById(videoId);
+    if (videoContainer) {
+        videoContainer.style.display = 'block';
+    }
+}
+
+// Sembunyikan semua video saat halaman dimuat
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.video-container').forEach(video => {
+        video.style.display = 'none';
+    });
+});

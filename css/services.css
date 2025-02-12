@@ -271,3 +271,39 @@ footer a:hover {
         font-size: 0.9rem;
     }
 }
+
+/* Video Examples Section */
+.video-examples {
+    margin-top: 40px;
+}
+
+.video-container {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.video-container h2 {
+    font-size: 1.8rem;
+    color: #6c5ce7;
+    margin-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Styles for Videos */
+@media (max-width: 768px) {
+    .video-container h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .video-container h2 {
+        font-size: 1.2rem;
+    }
+}

@@ -1,20 +1,64 @@
-<link rel="stylesheet" href="css/services.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kami - Creative Services</title>
+    <link rel="stylesheet" href="css/services.css">
+</head>
+<body>
+    <div class="fade-slide-in">
+        <h1>Our Services</h1>
+        <p>Kami menyediakan layanan terbaik untuk Anda!</p>
+    </div>
 
-<div class="fade-slide-in">
-    <h1>Our Services</h1>
-    <p>Kami menyediakan layanan terbaik untuk Anda!</p>
-</div>
+    <nav>
+        <a href="index.html" class="nav-button">Profil Saya</a>
+        <button class="nav-button" onclick="showDefinition('moghrap')">Moghrap</button>
+        <button class="nav-button" onclick="showDefinition('editing')">Video Editing</button>
+        <button class="nav-button" onclick="showDefinition('minecraft')">Minecraft Coding</button>
+        <button class="nav-button" onclick="showDefinition('blockbench')">Blockbench Models</button>
+    </nav>
 
-<nav>
-    <a href="index.html" class="nav-button">Profil Saya</a>
-    <button class="nav-button" onclick="showDefinition('moghrap')">Moghrap</button>
-    <button class="nav-button" onclick="showDefinition('editing')">Video Editing</button>
-    <button class="nav-button" onclick="showDefinition('minecraft')">Minecraft Coding</button>
-    <button class="nav-button" onclick="showDefinition('blockbench')">Blockbench Models</button>
-</nav>
+    <div id="definition-box" class="definition-box">
+        <p id="definition-text">Klik tombol di atas untuk melihat pengertian.</p>
+    </div>
 
-<div id="definition-box" class="definition-box">
-    <p id="definition-text">Klik tombol di atas untuk melihat pengertian.</p>
-</div>
+    <!-- Video Examples Section -->
+    <section class="video-examples">
+        <div id="moghrap-video" class="video-container">
+            <h2>Contoh Moghrap</h2>
+            <video controls>
+                <source src="assets/videos/moghrap-example.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
 
-<script src="js/services.js"></script>
+        <div id="editing-video" class="video-container">
+            <h2>Contoh Video Editing</h2>
+            <video controls>
+                <source src="assets/videos/editing-example.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div id="minecraft-video" class="video-container">
+            <h2>Contoh Minecraft Scripting</h2>
+            <video controls>
+                <source src="assets/videos/minecraft-example.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div id="blockbench-video" class="video-container">
+            <h2>Contoh Blockbench Modeling</h2>
+            <video controls>
+                <source src="assets/videos/blockbench-example.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <script src="js/services.js"></script>
+</body>
+</html>
