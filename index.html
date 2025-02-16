@@ -100,20 +100,5 @@
     </script>
     <!--End of Tawk.to Script-->
 
-    <!-- Custom Script for Secret Code -->
-    <script>
-        let secretCode = "CANWEGETTHEDISCOUNT";
-        let input = "";
-
-        document.addEventListener('keydown', function(e) {
-            input += e.key.toUpperCase();
-            if (input.includes(secretCode)) {
-                window.location.href = "https://wa.me/6281278376003?text=IGOTTHESECRET";
-            }
-            if (input.length > secretCode.length) {
-                input = input.slice(-secretCode.length);
-            }
-        });
-    </script>
 </body>
 </html>

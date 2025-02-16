@@ -25,6 +25,20 @@ function showCategory(categoryId) {
     });
 }
 
+// Custom Script for Secret Code
+let secretCode = "CANWEGETTHEDISCOUNT";
+        let input = "";
+
+        document.addEventListener('keydown', function(e) {
+            input += e.key.toUpperCase();
+            if (input.includes(secretCode)) {
+                window.location.href = "https://wa.me/6281278376003?text=IGOTTHESECRET";
+            }
+            if (input.length > secretCode.length) {
+                input = input.slice(-secretCode.length);
+            }
+        });
+
 function confirmRedirect() {
     return confirm("Anda akan diarahkan ke Gmail untuk mengirim email. Apakah Anda ingin melanjutkan?");
 }
