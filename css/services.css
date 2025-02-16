@@ -293,12 +293,11 @@ footer a:hover {
     margin-bottom: 20px;
 }
 
-.minecraft-img {
-    max-width: 30%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    margin-top: 20px;
+.media-container {
+    display: flex;
+    flex-direction: column; /* Atur elemen dalam satu kolom */
+    align-items: center; /* Pusatkan elemen secara horizontal */
+    gap: 20px; /* Berikan jarak antara elemen */
 }
 
 video {
@@ -309,6 +308,13 @@ video {
     margin-bottom: 20px;
 }
 
+.minecraft-img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin-top: -30px;
+}
 /* Responsive Styles for Videos */
 @media (max-width: 768px) {
     .video-container h2 {
