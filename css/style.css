@@ -10,6 +10,17 @@
     user-select: none;
 }
 
+html, body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
 body {
     background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
     color: #ffffff;
