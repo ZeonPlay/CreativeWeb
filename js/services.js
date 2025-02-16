@@ -98,3 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
         video.style.display = 'none';
     });
 });
+
+document.addEventListener('click', function(event) {
+    var lightbox = document.getElementById('lightbox');
+    if (event.target === lightbox) {
+        window.location.hash = '';
+    }
+});
