@@ -294,10 +294,11 @@ footer a:hover {
 }
 
 .minecraft-img {
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
 }
 
 video {
@@ -305,6 +306,7 @@ video {
     height: auto;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
 }
 
 /* Responsive Styles for Videos */
