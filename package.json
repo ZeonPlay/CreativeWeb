@@ -1,11 +1,13 @@
 {
   "name": "creativeweb",
   "version": "1.0.0",
-  "description": "Creative Web Services",
+  "description": "Creative Web Services Portfolio",
+  "main": "index.html",
   "scripts": {
-    "build": "echo 'Static site - no build needed'",
-    "start": "echo 'Static site'"
+    "build": "echo 'No build step required for static site'",
+    "start": "echo 'Static HTML site'"
   },
-  "devDependencies": {},
-  "dependencies": {}
+  "keywords": ["portfolio", "web-design", "creative"],
+  "author": "Zeon",
+  "license": "MIT"
 }
