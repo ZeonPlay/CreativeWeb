@@ -1,0 +1,11 @@
+{
+  "name": "creativeweb",
+  "version": "1.0.0",
+  "description": "Creative Web Services",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site'"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
